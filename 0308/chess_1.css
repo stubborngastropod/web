@@ -1,7 +1,9 @@
 .board {
+    display: flex;
     width: 800px;
     height: 800px;
     border: 2px solid black;
+    flex-direction: row;
 }
 
 .white {
@@ -9,8 +11,33 @@
     height: 100px;
     background-color: white;
 }
+
 .black {
     width: 100px;
     height: 100px;
     background-color: black;
+}
+
+.pawn {
+    background-image: url("black_pawn.png");
+    background-size: cover;
+}
+
+.king {
+    background-image: url("white_king.png");
+    background-size: cover;
+}
+
+.queen {
+    background-image: url("white_queen.png");
+    background-size: cover;
+}
+
+.rook {
+    background-image: url("white_rook.png");
+    background-size: cover;
+}
+
+.after {
+    background-image: none;
 }

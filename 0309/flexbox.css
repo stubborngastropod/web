@@ -1,0 +1,19 @@
+.container {
+    display: flex;
+    background-color: blue;
+    flex-direction: row-reverse;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+}
+
+.item {
+    width: 200px;
+    height: 200px;
+    font-size: 30px;
+    background-color: red;
+    margin-top: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+    color: bisque;
+}

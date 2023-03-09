@@ -1,0 +1,24 @@
+.header {
+    height: 100px;
+    background-color: aquamarine;
+}
+
+.section-left {
+    height: 500px;
+    background-color: bisque;
+    width: 30%;
+    float: left;
+}
+
+.section-right {
+    height: 500px;
+    background-color: orangered;
+    width: 70%;
+    float: right;
+}
+
+.footer {
+    height: 100px;
+    background-color: red;
+    clear: both;
+}

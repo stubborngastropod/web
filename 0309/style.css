@@ -1,0 +1,24 @@
+.box {
+    width: 100px;
+    height: 100px;
+    background-color: orange;
+
+    float: left;
+    margin-right: 20px;
+    margin-bottom: 5px;
+}
+
+.box1 {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    border: 1px solid black;
+}
+
+.box2 {
+    background-color: skyblue;
+}
+
+.left {
+    float: left;
+}
